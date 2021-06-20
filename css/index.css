@@ -8,6 +8,12 @@ body {
     color: white;
     padding: 30px;
 }
+.mouse {
+    padding-top: 0px;
+}
+#logo {
+    padding-top: 0px;
+}
 .lap {
     background-image: url(/images/s_image.jpg);
     background-position: cover;
@@ -41,8 +47,8 @@ body {
     color: white;
 }
 .message {
-    padding-left: 30px;
-    padding-bottom: 30px;
+    padding-left: 0px;
+    padding-bottom: 50px;
     background: transparent;
     border: 1px solid white;
 }
