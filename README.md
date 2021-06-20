@@ -13,13 +13,13 @@ It has a range of great programmers who do their best to give the best outcome t
 * We code and present our workk to you.
 
 ## Known Bugs
-
+A bit messy as am stick practising programming.
 ## Technologies Used
-HTML,
-CSS,
-Javascript,
-Bootstrap,
-Jquery.
+* HTML
+* CSS
+* Javascript
+* Bootstrap
+* Jquery
 ## Support and contact details
 Get to contact me on davengash100@gmail.com
 ### License
