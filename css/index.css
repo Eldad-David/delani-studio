@@ -1,5 +1,6 @@
 body {
     text-align: center;
+    margin: none;
 }
 .home {
     background-image: url(/images/h_img.jpg);
@@ -24,6 +25,8 @@ body {
     margin: 2px;
     padding-left: 2px;
 }
+.image {
+}
 .contact {
     background-image: url(/images/c_image.jpg);
     padding: 20px;
@@ -31,4 +34,15 @@ body {
 .form-control {
     background-color: transparent;
     border: none;
+}
+.text {
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+}
+.message {
+    padding-left: 30px;
+    padding-bottom: 30px;
+    background: transparent;
+    border: 1px solid white;
 }
