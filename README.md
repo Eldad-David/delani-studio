@@ -23,4 +23,5 @@ Jquery.
 ## Support and contact details
 Get to contact me on davengash100@gmail.com
 ### License
+MIT License.
 Copyright (c) {2021} **{Eldad David}**
