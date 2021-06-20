@@ -24,3 +24,11 @@ body {
     margin: 2px;
     padding-left: 2px;
 }
+.contact {
+    background-image: url(/images/c_image.jpg);
+    padding: 20px;
+}
+.form-control {
+    background-color: transparent;
+    border: none;
+}
