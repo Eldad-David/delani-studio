@@ -7,7 +7,6 @@ body {
     color: white;
     padding: 30px;
 }
-
 .lap {
     background-image: url(/images/s_image.jpg);
     background-position: cover;
@@ -16,4 +15,12 @@ body {
 }
 .about-us {
     text-align: center;
+}
+#we-do {
+    padding: 10px;
+}
+#portfolio {
+    padding: 10px;
+    margin: 2px;
+    padding-left: 2px;
 }
