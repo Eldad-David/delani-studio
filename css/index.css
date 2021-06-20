@@ -1,0 +1,9 @@
+.home {
+    background-image: url(/images/h_img.jpg);
+}
+.lap {
+    background-image: url(/images/s_image.jpg);
+}
+.about-us {
+    text-align: center;
+}
