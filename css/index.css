@@ -5,12 +5,14 @@ body {
     background-image: url(/images/h_img.jpg);
     background-position: initial;
     color: white;
-    padding: 200px;
+    padding: 50px;
 }
 .lap {
     background-image: url(/images/s_image.jpg);
-    background-position: cover;
-    padding: 30px;
+    background-position: initial;
+    color: white;
+    padding: 50px;
+
 }
 .about-us {
     text-align: center;
