@@ -5,11 +5,13 @@ body {
 .home {
     background-image: url(/images/h_img.jpg);
     background-position: center;
+    background-repeat: no-repeat;
     color: white;
     padding: 30px;
 }
 .mouse {
     padding-top: 50px;
+    animation: bounce 3s infinite;
 }
 #logo {
     padding-top: 100px;
@@ -17,8 +19,10 @@ body {
 #lap {
     background-image: url(/images/s_image.jpg);
     background-position: center;
+    background-repeat: no-repeat;
     color: white;
-    padding: 30px;
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
 #we-do {
     padding: 10px;
@@ -42,11 +46,13 @@ body {
 }
 
 .image {
-    padding: 20px;
+    padding: 10px;
+    width: 260px;
 }
 .contact {
     background-image: url(/images/c_image.jpg);
     background-position: center;
+    background-repeat: no-repeat;
     padding: 20px;
 }
 .form-control {
@@ -58,9 +64,11 @@ body {
     border: 1px solid white;
     color: white;
     margin-bottom: 10px;
+    padding-right: 10px;
 }
 .message {
     background: transparent;
     border: 1px solid white;
     padding-bottom: 100px;
+    padding-left: 100px;
 }
