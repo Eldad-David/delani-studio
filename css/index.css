@@ -1,11 +1,7 @@
 body {
     text-align: center;
 }
-.container {
-    margin: 0px;
-    padding: 0px;
-    padding-right: 0px;
-}
+
 .home {
     background-image: url(/images/h_img.jpg);
     background-position: center;
