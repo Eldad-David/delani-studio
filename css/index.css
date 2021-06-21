@@ -10,19 +10,26 @@ body {
     padding: 30px;
 }
 .mouse {
-    padding-top: 50px;
+    padding-top: 95px;
+    padding-bottom: 5px;
+}
+#bounce {
     animation: bounce 3s infinite;
 }
 #logo {
-    padding-top: 100px;
+    padding-top: 130px;
+}
+.about-us {
+    padding-left: 40px;
+    padding-right: 40px;
 }
 #lap {
     background-image: url(/images/s_image.jpg);
     background-position: center;
     background-repeat: no-repeat;
     color: white;
-    padding-bottom: 50px;
-    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-top: 100px;
 }
 #we-do {
     padding: 10px;
@@ -59,16 +66,20 @@ body {
     background-color: transparent;
     border: none;
 }
+.con {
+    color: white;
+}
 .text {
     background: transparent;
     border: 1px solid white;
     color: white;
     margin-bottom: 10px;
-    padding-right: 10px;
+    padding-right: 20px;
 }
 .message {
     background: transparent;
     border: 1px solid white;
     padding-bottom: 100px;
-    padding-left: 100px;
+    padding-right: 150px;
 }
+
