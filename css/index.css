@@ -1,40 +1,44 @@
 body {
     text-align: center;
 }
+
 .home {
     background-image: url(/images/h_img.jpg);
-    background-position: cover;
+    background-position: center;
     color: white;
     padding: 30px;
 }
 .mouse {
-    padding-top: 20px;
+    padding-top: 50px;
 }
 #logo {
-    padding-top: 20px;
+    padding-top: 100px;
 }
-.lap {
+#lap {
     background-image: url(/images/s_image.jpg);
-    background-position: cover;
+    background-position: center;
     color: white;
     padding: 30px;
 }
-.about-us {
-    text-align: center;
-}
 #we-do {
+    padding: 10px;
+}
+.col-md-4 {
     padding: 10px;
 }
 #portfolio {
     padding: 10px;
     margin: 2px;
-    padding-left: 2px;
+}
+.design-text {
+    display: none;
 }
 .image {
-    padding: 10px;
+    padding: 20px;
 }
 .contact {
     background-image: url(/images/c_image.jpg);
+    background-position: center;
     padding: 20px;
 }
 .form-control {
@@ -45,10 +49,10 @@ body {
     background: transparent;
     border: 1px solid white;
     color: white;
+    margin-bottom: 10px;
 }
 .message {
-    padding-left: 0px;
-    padding-bottom: 50px;
     background: transparent;
     border: 1px solid white;
+    padding-bottom: 100px;
 }
