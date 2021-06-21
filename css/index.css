@@ -1,6 +1,5 @@
 body {
     text-align: center;
-    margin: none;
 }
 .home {
     background-image: url(/images/h_img.jpg);
@@ -9,10 +8,10 @@ body {
     padding: 30px;
 }
 .mouse {
-    padding-top: 0px;
+    padding-top: 20px;
 }
 #logo {
-    padding-top: 0px;
+    padding-top: 20px;
 }
 .lap {
     background-image: url(/images/s_image.jpg);
@@ -32,6 +31,7 @@ body {
     padding-left: 2px;
 }
 .image {
+    padding: 10px;
 }
 .contact {
     background-image: url(/images/c_image.jpg);
