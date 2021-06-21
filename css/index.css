@@ -1,7 +1,11 @@
 body {
     text-align: center;
 }
-
+.container {
+    margin: 0px;
+    padding: 0px;
+    padding-right: 0px;
+}
 .home {
     background-image: url(/images/h_img.jpg);
     background-position: center;
@@ -31,6 +35,12 @@ body {
     margin: 2px;
 }
 .design-text {
+    display: none;
+}
+.dev-text {
+    display: none;
+}
+.product-text {
     display: none;
 }
 .image {
