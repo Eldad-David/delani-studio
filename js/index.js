@@ -25,7 +25,7 @@ $(document).ready(function() {
             $('.product-text').hide();
             $('#product').show();
         });
-    });
+    }); 
 });
 
 // Business logic
