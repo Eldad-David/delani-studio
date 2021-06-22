@@ -4,7 +4,7 @@ body {
     padding: 0px;
 }
 .home {
-    background-image: url(/images/h_img.jpg);
+    background-image: url(../images/h_img.jpg);
     background-position: cover;
     background-repeat: no-repeat;
     color: white;
@@ -25,7 +25,7 @@ body {
     padding-right: 40px;
 }
 #lap {
-    background-image: url(/images/s_image.jpg);
+    background-image: url(../images/s_image.jpg);
     background-position: center;
     background-repeat: no-repeat;
     color: white;
