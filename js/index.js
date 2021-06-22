@@ -1,3 +1,4 @@
+// user interface
 $(document).ready(function() {
     $('#design').click(function() {
         $('.design-text').show();
@@ -27,7 +28,7 @@ $(document).ready(function() {
     });
 });
 
-
+// Business logic
 $(document).ready(function() {
     $('.form-group').submit(function() {
         alert('We have successfully recieved your message! Thank you for contacting us.');
