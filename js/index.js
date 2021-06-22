@@ -30,6 +30,7 @@ $(document).ready(function() {
 
 $(document).ready(function() {
     $('.form-group').submit(function() {
-        alert('We have successfully recieved your message! Thank you for contacting us.');
+        let name = document.getElementById('username');
+        alert(name + 'We have successfully recieved your message! Thank you for contacting us.');
     });
 });
