@@ -36,6 +36,12 @@ body {
 #we-do {
     padding: 10px;
 }
+.work-text {
+    color: red;
+    border: 4px solid black;
+    padding: 20px;
+    display: none;
+}
 .col-md-4 {
     padding: 10px;
 }
