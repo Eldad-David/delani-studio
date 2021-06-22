@@ -1,10 +1,11 @@
 body {
     text-align: center;
+    margin: 0px;
+    padding: 0px;
 }
-
 .home {
     background-image: url(/images/h_img.jpg);
-    background-position: center;
+    background-position: cover;
     background-repeat: no-repeat;
     color: white;
     padding: 30px;
@@ -13,7 +14,7 @@ body {
     padding-top: 95px;
     padding-bottom: 5px;
 }
-#bounce {
+#bounce:hover {
     animation: bounce 3s infinite;
 }
 #logo {
@@ -68,24 +69,33 @@ body {
 }
 .con {
     color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .text {
     background: transparent;
     border: 1px solid white;
-    color: white;
+    color: black;
     margin-bottom: 10px;
     padding-right: 20px;
 }
+
 .message {
     background: transparent;
     border: 1px solid white;
-    padding-bottom: 100px;
-    padding-right: 150px;
+    padding-bottom: 150px;
+    padding-right: 200px;
 }
 .submit {
     background-color: white;
     margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid grey;
 }
-:placeholder {
+.submit:hover {
+    color: white;
+    background-color: gray;
+}
+::placeholder {
     color: white;
 }
