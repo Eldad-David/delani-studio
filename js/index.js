@@ -36,12 +36,10 @@ function doBounce(element, times, distance, speed) {
 };
 
 $(document).ready(function() {
-    $(".mouse").click(function() {
+    $(".mouse").hover(function() {
         doBounce($('.mouse'), 50, '5px', 300);   
     });
 });
-
-
 
 
 
