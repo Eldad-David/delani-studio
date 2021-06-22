@@ -28,6 +28,23 @@ $(document).ready(function() {
     }); 
 });
 
+function doBounce(element, times, distance, speed) {
+    for(var i = 0; i < times; i++) {
+        element.animate({marginTop: '-='+distance}, speed)
+            .animate({marginTop: '+='+distance}, speed);
+    };      
+};
+
+$(document).ready(function() {
+    $(".mouse").click(function() {
+        doBounce($('.mouse'), 50, '5px', 300);   
+    });
+});
+
+
+
+
+
 // Business logic
 $(document).ready(function() {
     $('.form-group').submit(function() {
